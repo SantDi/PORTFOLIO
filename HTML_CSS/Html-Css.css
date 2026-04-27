@@ -1,0 +1,76 @@
+body{
+    margin: 20px;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+
+}
+
+.principal{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.proyectoN{
+  width: 300px;
+  height: 200px;
+  background-image: url(imagenes/Modelo1.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 20px;
+  font-weight: bold;
+
+  transition: 0.3s;
+  border: 5px solid white;
+}
+
+.proyectoN:hover{
+    transform: scale(1.05);
+}
+
+.proyectoF{
+  width: 300px;
+  height: 200px;
+  background-image: url(imagenes/Formulario.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 20px;
+  font-weight: bold;
+
+  transition: 0.3s;
+  border: 5px solid white;
+}
+
+.proyectoF:hover{
+    transform: scale(1.05);
+}
+.proyectosub_N, .proyectosub_F{
+  background: rgba(0,0,0,0.5);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+

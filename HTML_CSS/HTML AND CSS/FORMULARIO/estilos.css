@@ -1,0 +1,70 @@
+body{
+    background: linear-gradient(90deg,rgba(0, 0, 0, 1) 0%, rgba(107, 52, 130, 1) 50%, rgba(107, 52, 130, 1) 50%, rgba(0, 0, 0, 1) 100%);
+    margin: 0;
+    overflow-x: hidden;
+}
+
+h1 {
+    text-align: center;
+    color: aliceblue;
+}
+
+p {
+    color: aliceblue;
+    font-size: 16px;
+    text-align: center;
+}
+
+.principal{
+     display: grid; /* 👈 IMPORTANTE: no quitar esto */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    box-sizing: border-box;
+    width: 100vw;
+    margin-top: 30px;
+    padding: 20px;
+    
+}
+
+.parte{
+    display: flex;
+    flex-direction: column;
+}
+
+.principal input{
+    width: calc(60.33% - 10px);
+    height: 20px;
+
+}
+ 
+label{
+    font-size: 15px;
+    font-family: monospace;
+    color: aliceblue;
+}
+
+.condiciones label{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+input[type="checkbox"] {
+   width: 20px;
+   height: 20px;
+   cursor: pointer;
+}
+
+.boton{
+    grid-column: span 3;
+    justify-self: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.condiciones{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
