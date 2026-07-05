@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <h1>Calculadora</h1>
+    <div class="container">
+        <form id="forma">
+            <div class= 'mb-1'>
+                <label for="operandoA" class="text1">OperandoA</label>
+                <input type="number" class="form-control" placeholder="Escribe operando A" id="operandoA" name="operandoA"/>
+            </div>
+            <div class="mb-2">
+                <label for="operandoB" class="text1">OperandoB</label>
+                <input type="number" class="form-control" placeholder="Escribe operando B" id="operandoB" name="operandoB"/>
+            </div>
+            <div class="btn">
+        <button type="button" onclick="sumar(this.form)">Sumar</button> 
+        </div> 
+        <div id="Resultado"></div>
+        </form>
+        
+        <form id="forma2">
+            <div class= 'mb-1'>
+                <label for="operandoA" class="text1">OperandoA</label>
+                <input type="number" class="form-control" placeholder="Escribe operando A" id="operandoA" name="operandoA"/>
+            </div>
+            <div class="mb-2">
+                <label for="operandoB" class="text1">OperandoB</label>
+                <input type="number" class="form-control" placeholder="Escribe operando B" id="operandoB" name="operandoB"/>
+            </div>
+            <div class="btn">
+        <button type="button" onclick="restar(this.form)">Restar</button> 
+        </div> 
+        <div id="Resultado2"></div>
+        </form>
+        
+        <form id="forma3">
+            <div class= 'mb-1'>
+                <label for="operandoA" class="text1">OperandoA</label>
+                <input type="number" class="form-control" placeholder="Escribe operando A" id="operandoA" name="operandoA"/>
+            </div>
+            <div class="mb-2">
+                <label for="operandoB" class="text1">OperandoB</label>
+                <input type="number" class="form-control" placeholder="Escribe operando B" id="operandoB" name="operandoB"/>
+            </div>
+            <div class="btn">
+        <button type="button" onclick="multiplicar(this.form)">Multiplicar</button> 
+        </div> 
+        <div id="Resultado3"></div>
+        </form>
+        <form id="forma4">
+            <div class= 'mb-1'>
+                <label for="operandoA" class="text1">OperandoA</label>
+                <input type="number" class="form-control" placeholder="Escribe operando A" id="operandoA" name="operandoA"/>
+            </div>
+            <div class="mb-2">
+                <label for="operandoB" class="text1">OperandoB</label>
+                <input type="number" class="form-control" placeholder="Escribe operando B" id="operandoB" name="operandoB"/>
+            </div>
+            <div class="btn">
+        <button type="button" onclick="dividir(this.form)">Dividir</button> 
+        </div> 
+        <div id="Resultado4"></div>
+        </form>
+    </div>
+    <script src="js/app.js"></script>
+  </body>
+</html>
