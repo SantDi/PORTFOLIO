@@ -65,6 +65,11 @@ body{
     border: 3px groove white;
     background-color: black;
 }
+@media (max-width: 480px) {
+    .soy, .certificates, .textskillsme, .texteducation{
+        font-size: 14px;
+    }
+}
 
 .center{
     display: flex;
