@@ -386,7 +386,7 @@ article{
     position: absolute;  
     top: 0; left: 0; 
     width: 100%; height: 100%;
-    background-image: url('imagenes/nodejs.png'); 
+    background-image: url(''); 
     background-size: cover; 
     background-position: center;
     filter: blur(10px);
